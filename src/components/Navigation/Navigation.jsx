@@ -3,6 +3,7 @@ import logo from './../../assets/logo-bookmark.svg';
 import logoWhite from './../../assets/logo-bookmark-white.svg';
 import hamburger from './../../assets/icon-hamburger.svg';
 import close from './../../assets/icon-close.svg';
+import Button from '../Button/Button';
 import { useState } from 'react';
 
 const navLinks = [
@@ -42,7 +43,14 @@ const Navigation = () => {
                             {nav.title}
                         </a>
                     ))}
-                    <a href='#'>Login</a>
+                    <Button
+                        bg='hsl(0, 94%, 66%)'
+                        hoverBg='transparent'
+                        hoverColor='hsl(0, 94%, 66%)'
+                        hoverOutline='2px solid hsl(0, 94%, 66%)'
+                    >
+                        Login
+                    </Button>
                 </div>
                 <button
                     id='menu-btn'
@@ -68,7 +76,13 @@ const Navigation = () => {
                                 {nav.title}
                             </a>
                         ))}
-                        <a href='#'>Login</a>
+                        <Button
+                            bg='transparent'
+                            border='2px solid hsl(0,0%, 100%)'
+                            textTransform='uppercase'
+                        >
+                            Login
+                        </Button>
                     </div>
                 </div>
                 <button
