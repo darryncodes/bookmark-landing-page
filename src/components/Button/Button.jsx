@@ -10,6 +10,8 @@ const Button = ({
     hoverBg,
     hoverColor,
     hoverOutline,
+    padding,
+    margin,
 }) => {
     const [isHovered, setIsHovered] = useState(false);
 
@@ -20,6 +22,8 @@ const Button = ({
         border,
         textDecoration,
         textTransform,
+        padding,
+        margin,
     };
 
     function mouseEnter() {

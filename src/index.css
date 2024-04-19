@@ -1,5 +1,6 @@
 :root {
     --clr-neutral-400: hsl(0, 0%, 100%);
+    --clr-neutral-500: hsl(0, 0%, 95%);
 
     --clr-primary-200: hsl(229, 8%, 60%);
     --clr-primary-400: hsl(231, 69%, 60%);
@@ -18,6 +19,14 @@ body {
     min-height: 100vh;
 }
 
+h1,
+h1,
+h3 {
+    color: var(--clr-primary-600);
+    font-weight: 500;
+    padding-bottom: 1.25rem;
+}
+
 h1 {
     font-size: 1.875rem; /* 30px */
     line-height: 2.25rem; /* 36px */
@@ -31,4 +40,12 @@ h2 {
 h3 {
     font-size: 1.25rem; /* 20px */
     line-height: 1.75rem; /* 28px */
+}
+
+header {
+    padding: 4rem 0;
+}
+
+section {
+    padding: 2rem 0;
 }
