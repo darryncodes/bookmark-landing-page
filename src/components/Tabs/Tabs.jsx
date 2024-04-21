@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { info } from './info';
+import { tabsInfo } from './tabsInfo';
 import Button from './../Button/Button';
 import Grid from './../UI/Grid/Grid';
 import Centralised from './../UI/Centralised/Centralised';
@@ -19,7 +19,7 @@ const Tabs = () => {
                 </p>
             </Centralised>
             <div className={styles.headings}>
-                {info.map((tab, index) => (
+                {tabsInfo.map((tab, index) => (
                     <button
                         key={index}
                         onClick={() => setActiveTab(index)}
@@ -33,11 +33,11 @@ const Tabs = () => {
             </div>
             <Grid>
                 <div>
-                    <img src={info[activeTab].img} alt='' />
+                    <img src={tabsInfo[activeTab].img} alt='' />
                 </div>
                 <div className={styles.content}>
-                    <h3>{info[activeTab].heading}</h3>
-                    <p>{info[activeTab].content}</p>
+                    <h3>{tabsInfo[activeTab].heading}</h3>
+                    <p>{tabsInfo[activeTab].content}</p>
                     <Button margin='2rem 0 0 0'>More info</Button>
                 </div>
             </Grid>

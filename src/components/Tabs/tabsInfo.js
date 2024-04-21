@@ -2,7 +2,7 @@ import img1 from './../../assets/illustration-features-tab-1.svg';
 import img2 from './../../assets/illustration-features-tab-2.svg';
 import img3 from './../../assets/illustration-features-tab-3.svg';
 
-export const info = [
+export const tabsInfo = [
     {
         label: 'Simple Bookmarking',
         heading: 'Bookmark in one click',

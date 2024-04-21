@@ -4,6 +4,7 @@ import Navigation from './components/Navigation/Navigation';
 import Hero from './components/Hero/Hero';
 import Tabs from './components/Tabs/Tabs';
 import Cards from './components/Cards/Cards';
+import Faqs from './components/Faqs/Faqs';
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Hero />
             <Tabs />
             <Cards />
+            <Faqs />
         </Container>
     );
 };

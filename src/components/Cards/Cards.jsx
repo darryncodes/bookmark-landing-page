@@ -1,4 +1,4 @@
-import { cardInfo } from './cardinfo';
+import { cardInfo } from './cardInfo';
 import Button from './../Button/Button';
 import styles from './Cards.module.css';
 import Centralised from './../UI/Centralised/Centralised';
