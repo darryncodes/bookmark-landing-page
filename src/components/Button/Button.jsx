@@ -7,10 +7,9 @@ const Button = ({
     border = 'none',
     textDecoration = 'none',
     textTransform = 'none',
-    hoverBg,
-    hoverColor,
-    hoverOutline,
-    padding,
+    hoverBg = 'transparent',
+    hoverColor = 'hsl(231, 69%, 60%)',
+    hoverOutline = '2px solid hsl(231, 69%, 60%)',
     margin,
 }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -22,7 +21,6 @@ const Button = ({
         border,
         textDecoration,
         textTransform,
-        padding,
         margin,
     };
 

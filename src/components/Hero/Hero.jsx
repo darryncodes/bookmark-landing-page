@@ -18,13 +18,7 @@ const Hero = () => {
                     </div>
                     <div>
                         <div className={styles.buttons}>
-                            <Button
-                                hoverBg='transparent'
-                                hoverColor='hsl(231, 69%, 60%)'
-                                hoverOutline='2px solid hsl(231, 69%, 60%)'
-                            >
-                                Get it on Chrome
-                            </Button>
+                            <Button>Get it on Chrome</Button>
                             <Button
                                 bg='hsl(0, 0%, 95%)'
                                 color='rgb(37, 43, 70)'

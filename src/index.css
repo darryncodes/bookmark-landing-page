@@ -43,9 +43,10 @@ h3 {
 }
 
 header {
-    padding: 4rem 0;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
 }
 
 section {
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
