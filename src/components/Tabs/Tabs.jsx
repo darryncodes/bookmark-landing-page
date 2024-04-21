@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { info } from './info';
 import Button from './../Button/Button';
 import Grid from './../UI/Grid/Grid';
+import Centralised from './../UI/Centralised/Centralised';
 import styles from './Tabs.module.css';
 
 const Tabs = () => {
@@ -9,6 +10,14 @@ const Tabs = () => {
 
     return (
         <section>
+            <Centralised>
+                <h2>Features</h2>
+                <p>
+                    Our aim is to make it quick and easy for you to access your
+                    favourite websites. Your bookmarks sync between your devices
+                    so you can access them on the go.
+                </p>
+            </Centralised>
             <div className={styles.headings}>
                 {info.map((tab, index) => (
                     <button
