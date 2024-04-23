@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Centralised from './../UI/Centralised/Centralised';
+import Container from './../UI/Container/Container';
 import styles from './Contact.module.css';
 import errorIcon from './../../assets/icon-error.svg';
 
@@ -42,7 +43,7 @@ const Contact = () => {
 
     return (
         <section className={styles.contact}>
-            <div className={styles.container}>
+            <Container>
                 <Centralised>
                     <p className={styles.content}>35,000+ already joined</p>
                     <h2 className={styles.heading}>
@@ -76,7 +77,7 @@ const Contact = () => {
                         </button>
                     </form>
                 </Centralised>
-            </div>
+            </Container>
         </section>
     );
 };
